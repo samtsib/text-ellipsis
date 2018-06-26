@@ -1,0 +1,40 @@
+{
+    "name": "spaceellipsis/text-ellipsis",
+    "description": "This plugin will split the text with screen-size based sub-elements. (e.g. <span class=ellipsis-lg></span>)",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "text ellipsis"
+    ],
+    "support": {
+        "docs": "https://github.com/samtsib/text-ellipsis/text-ellipsis/blob/master/README.md",
+        "issues": "https://github.com/samtsib/text-ellipsis/text-ellipsis/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Space",
+            "homepage": "thespaceinbetween.co.nz"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "spaceellipsis\\textellipsis\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Text Ellipsis",
+        "handle": "text-ellipsis",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/samtsib/text-ellipsis/text-ellipsis/master/CHANGELOG.md",
+        "class": "spaceellipsis\\textellipsis\\TextEllipsis"
+    }
+}
